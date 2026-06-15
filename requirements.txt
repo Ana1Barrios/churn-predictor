@@ -1,0 +1,16 @@
+# ── Data collection (scraper.py) ──────────────────────
+requests>=2.32.3
+python-dotenv>=1.0.1
+
+# ── Data processing (scraper.py, features.py, model.py)
+pandas>=2.2.2
+numpy>=2.0.0
+
+# ── Machine learning (model.py) ───────────────────────
+scikit-learn>=1.6.0
+joblib>=1.4.2
+
+# ── API (main.py — Step 6) ────────────────────────────
+fastapi>=0.111.0
+uvicorn>=0.30.1
+pydantic>=2.7.4
